@@ -1,4 +1,4 @@
-const {sequelize, DataTypes, Model} = require('../db.js');
+const {sequelize, DataTypes, Model} = require('../db/db.js');
 
 class Song extends Model {}
 
